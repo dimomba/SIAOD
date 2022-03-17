@@ -1,3 +1,3 @@
 Вариант 21, задание 3 строки:
 nulterm.cpp - нуль терминальная строка
-строкаstring.cpp - строка string
+string.cpp - строка string
