@@ -37,3 +37,7 @@ vector.cpp - vector
 nulterm.cpp - нуль терминальная строка
 
 string.cpp - строка string
+
+Задание 4 структуры: (папка DZ4)
+
+struct.cpp - задание 4
