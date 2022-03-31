@@ -90,6 +90,7 @@ void oper_of_one_cassa(vector<vector<float>> vect)
 	{
 		if (vect[i][0] == n)
 		{
+			cout << "Номер кассы  Код товара  Количество        Цена      Скидка   Стоимость" << endl;
 			for (int j = 0; j < vect[i].size(); j++)
 			{
 				cout << setw(7) << vect[i][j] << " ";
