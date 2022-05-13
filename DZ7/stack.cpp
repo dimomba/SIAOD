@@ -102,7 +102,7 @@ string transform(string inf)
     }
     return postf;
 }
-
+ 
 int main()
 {
     string v;
