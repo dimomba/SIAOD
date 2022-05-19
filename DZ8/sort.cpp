@@ -130,7 +130,7 @@ int main()
 			cout << "Исходный массив: ";
 			print(array, size);
 			cout << "Время: ";
-      timing = clock();
+      			timing = clock();
 			BubbleSort(array, size);
 			cout << clock() - timing << endl;
 			cout << "Отсортированный массив: ";
@@ -141,18 +141,18 @@ int main()
 			cout << "Исходный массив: ";
 			print(array, size);
 			cout << "Время: ";
-      timing = clock();
+      			timing = clock();
 			ShellKnut(array, size);
 			cout << clock() - timing << endl;
 			cout << "Отсортированный массив: ";
 			print(array, size);
 			break;
-    case 3:
+    		case 3:
 			randomize_for_MergeSort(array, size);
 			cout << "Исходный массив: ";
 			print_for_MergeSort(array, size);
 			cout << "Время: ";
-      timing = clock();
+      			timing = clock();
 			MergeSort(array, 1, size);
 			cout << clock() - timing << endl;
 			cout << "Отсортированный массив: ";
