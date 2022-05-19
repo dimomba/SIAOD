@@ -80,7 +80,7 @@ void ShellKnut(int* array, int size)
 	}
 }
 
-oid Merge(int* array, int first, int last)
+void Merge(int* array, int first, int last)
 {
 	int middle, start, final, j;
 	int* mas = new int[100];
