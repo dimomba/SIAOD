@@ -86,7 +86,6 @@ void fib(Location* areas, int n, int x)
     cout << "Элемент не найден";
     return;
 }
-
 int main()
 {
     setlocale(LC_ALL, "ru");
