@@ -7,6 +7,7 @@
 #include <vector>
 #include <regex>
 using namespace std;
+
 vector<int> Knut_Moris_Pratt(const string& s)
 {
 	vector<int> pi(s.length(), 0);
